@@ -89,6 +89,14 @@ a{
     padding:15px;
     border-radius: 10px;
 }
+.wrapper{
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.wrapper p{
+    margin-left:15px;
+}
 .price-wrap a{
     text-decoration: underline;
     font-weight: inherit;
