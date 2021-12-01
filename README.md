@@ -26,15 +26,18 @@ Users should be able to:
 ### Screenshot
 
 -Desktop
+
 ![](./images/screenshot-desktop.png)
 
 -Mobile
+
+
 ![](./images/screenshot-mobile.png)
 
 ### Links
 
 - Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Live Site URL: [https://eshan01.github.io/Order-summary/](https://eshan01.github.io/Order-summary/)
 
 ## My process
 
