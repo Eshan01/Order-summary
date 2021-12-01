@@ -1,0 +1,118 @@
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+}
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+html{
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("./images/pattern-background-mobile.svg");
+    background-repeat:repeat-x;
+    background-size: 50%;
+    font-size: 16px;
+    background-position: top left;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--Pale-blue);
+}
+h2{
+    color:var(--Dark-blue);
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.card-wrap{
+    background:white;
+    max-width:400px;
+    padding:0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    text-align:center;
+}
+@media (max-width:400px){
+    .card-wrap{
+        width:90vw;
+    }
+}
+.head-image{
+    width: 100%;
+    background-image: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.content-wrap{
+    margin:0 15px;
+    padding:20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+}
+@media (max-width:400px){
+    .content-wrap{
+        margin:0 5px;
+        padding:10px;
+    }
+}
+.about-wrap{
+    margin:30px;
+}
+.about-wrap h2{
+     display: block;
+     margin:20px 0;
+}
+.about-wrap p{
+    font-size: inherit;
+    color: gray;
+    font-weight: 500;
+}
+.price-wrap{
+    background:var(--Very-pale-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding:15px;
+    border-radius: 10px;
+}
+.price-wrap a{
+    text-decoration: underline;
+    font-weight: inherit;
+    color: var(--Dark-blue);
+}
+.price-wrap a:hover{
+    text-decoration: none;
+    color:var(--Desaturated-blue);
+}
+.btn{
+    display:block;
+    margin:20px 0;
+    padding:10px 30px;
+    background:var(--Bright-blue);
+    color:white;
+    border-radius: 10px;
+}
+.btn:hover{
+    background:var(--Desaturated-blue);
+}
+.cancel{
+    font-weight: 500;
+    color:var(--Desaturated-blue);
+}
+.cancel:hover{
+    color:var(--Dark-blue);
+}
